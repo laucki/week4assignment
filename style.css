@@ -1,0 +1,101 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+span{
+    margin: 0.5rem;
+  padding: 0.5rem;
+  border: .2rem solid black;
+  background: ;
+  height: auto;
+  width: 10rem;
+}
+
+.static {
+  color: blue;
+  float: right;
+
+}
+.float-right{
+    float: right;
+    margin-left: 1rem;
+}
+
+.float-left{
+    float: :left;
+    margin-right: 1rem;
+}
+
+
+
+body {
+    font-family: Roboto, sans-serif;
+}
+.header-img {
+  width: 100%;
+  height: 150px;
+  background: url('https://www.vmcdn.ca/f/files/baytoday/images/entertainment/film-making-shutterstock_169841813-2016.jpg;w=960');
+  background-size: cover;
+}
+.about-me{
+    font-family: serif;
+}
+.section--page {
+    min-height: 2vh;
+    padding: 1rem 1rem 1rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+.section--page:nth-of-type(odd) {
+    background: #dcdcdc;
+}
+.nav {
+    padding: 1rem;
+}
+.nav__item {
+    list-style:none;
+    display: inline-block;
+}
+.nav__link {
+    padding: 1rem;  
+
+}
+.nav__link:hover {
+    background: #818c51;
+    color: white;
+}
+.a:hover {
+  background-color: #e6f4f7;
+}
+.photo1{
+	height: 150px
+}
+
+.nav__item {
+    background: #faffe3;
+    font-style: italic; bottom;
+
+}
+.different-colour{
+    color: #747488;
+    font-size: 2rem
+}
+
+@media (min-width: 30rem) {
+    .different-colour {
+        color: olive;
+        display: inline-block;
+    }
+    .nav__link {
+        display: inline;
+
+    }
+.section--page:nth-of-type(odd) {
+    background: #f3ffe2;
+}
+
+
